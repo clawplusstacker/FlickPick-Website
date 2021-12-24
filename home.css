@@ -118,6 +118,7 @@
   margin-left: 100px;
   color:#97CEFF;
   font-weight: 300;
+  text-align: inherit;
 }
 #demoDesc{
   font-size: 15px;
@@ -130,8 +131,14 @@ iframe{
   bottom: 63%;
   left: 40%;
   z-index: 1;
+  margin-top: 0px;
 }
 
+.iframeResize{
+  display: block;
+  margin: auto;
+
+}
 .homeBody3{
   height: 650px;
   width: 100%;

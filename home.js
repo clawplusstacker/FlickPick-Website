@@ -14,14 +14,21 @@ function originalCSS(){
   $("#bannerLeftText").css("font-size", "70px")
   $("#bannerRight").show();
 
-  $(".ssPic").css("width", "300")
+  $(".ssPic").css("width", "300px")
+  $(".ssDesc").css("font-size", "15px")
+  $("#pickMovie").css("margin-top", "80px")
 
   $(".homeBody2Header").css("padding-top", "130px")
+  $(".homeBody2Header").css("margin-left", "100px")
+  $(".homeBody2Header").css("text-align", "inherit")
   $("#demoDesc").show()
   $("iframe").css("height", "490px")
   $("iframe").css("width", "820px")
   $("iframe").css("bottom", "63%")
   $("iframe").css("left", "40%")
+  $("iframe").css("margin-top", "0px")
+  $("iframe").removeClass("iframeResize")
+
 
   $(".homeBody3").css("height", "650px")
   $(".halfLeft").css("float", "left")
@@ -29,6 +36,7 @@ function originalCSS(){
   $(".halfLeft").css("height", "80%")
   $(".halfRight").css("float", "right")
   $(".halfRight").css("width", "50%")
+  $(".halfRight").css("height", "80%")
   $("#teamPic").css("margin-top", "80px")
 
 
@@ -50,23 +58,32 @@ function changeCSS(){
   $("#bannerLeftText").css("font-size", "50px")
   $("#bannerRight").hide();
 
-  $(".ssPic").css("width", "150px")
+  $(".ssPic").css("width", "130px")
+  $(".ssDesc").css("font-size", "10px")
+  $("#pickMovie").css("margin-top", "0px")
+
 
   $(".homeBody2Header").css("padding-top", "30px")
+  $(".homeBody2Header").css("margin-left", "0px")
+  $(".homeBody2Header").css("text-align", "center")
   $("#demoDesc").hide()
-  $("iframe").css("height", "300px")
-  $("iframe").css("width", "400px")
+  $("iframe").css("height", "200px")
+  $("iframe").css("width", "300px")
   $("iframe").css("bottom", "0%")
-  $("iframe").css("left", "10%")
+  $("iframe").css("left", "0%")
+  $("iframe").css("margin-top", "20%")
+  $("iframe").addClass("iframeResize")
+  
 
 
 
-  $(".homeBody3").css("height", "1300px")
+  $(".homeBody3").css("height", "1700px")
   $(".halfLeft").css("float", "none")
   $(".halfLeft").css("width", "100%")
   $(".halfLeft").css("height", "35%")
   $(".halfRight").css("float", "none")
   $(".halfRight").css("width", "100%")
+  $(".halfRight").css("height", "0%")
   $("#teamPic").css("margin-top", "0px")
 
 
