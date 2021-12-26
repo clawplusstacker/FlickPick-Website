@@ -10,6 +10,8 @@ function originalCSS(){
 
   $("#bannerLeft").css("float", "left")
   $("#bannerLeft").css("width", "50%")
+  $(".bannerContainer").css("height", "90%")
+  $("#bannerLeft").css("height", "90%")
   $("#bannerLeftText").css("margin-left", "30%")
   $("#bannerLeftText").css("font-size", "70px")
   $("#bannerRight").show();
@@ -54,6 +56,8 @@ function changeCSS(){
 
   $("#bannerLeft").css("float", "none")
   $("#bannerLeft").css("width", "100%")
+  $(".bannerContainer").css("height", "60%")
+  $("#bannerLeft").css("height", "60%")
   $("#bannerLeftText").css("margin-left", "0%")
   $("#bannerLeftText").css("font-size", "50px")
   $("#bannerRight").hide();
