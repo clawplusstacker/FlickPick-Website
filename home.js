@@ -69,13 +69,9 @@ function changeCSS(){
   $("#demoDesc").hide()
   $("iframe").css("height", "200px")
   $("iframe").css("width", "300px")
-  $("iframe").css("bottom", "0%")
-  $("iframe").css("left", "0%")
   $("iframe").css("margin-top", "20%")
   $("iframe").addClass("iframeResize")
   
-
-
 
   $(".homeBody3").css("height", "1700px")
   $(".halfLeft").css("float", "none")

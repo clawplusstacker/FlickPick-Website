@@ -128,8 +128,6 @@
 }
 iframe{
   position: relative;
-  bottom: 63%;
-  left: 40%;
   z-index: 1;
   margin-top: 0px;
 }
@@ -137,7 +135,6 @@ iframe{
 .iframeResize{
   display: block;
   margin: auto;
-
 }
 .homeBody3{
   height: 650px;
