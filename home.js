@@ -20,16 +20,21 @@ function originalCSS(){
   $(".ssDesc").css("font-size", "15px")
   $("#pickMovie").css("margin-top", "80px")
 
+
+
+  $("#homeBody2Half1").css("float", "left")
+  $("#homeBody2Half1").css("height", "100%")
+  $("#homeBody2Half1").css("width", "35%")
+  $("#homeBody2Half2").css("float", "right")
+  $("#homeBody2Half2").css("height", "100%")
+  $("#homeBody2Half2").css("width", "65%")
+
   $(".homeBody2Header").css("padding-top", "130px")
   $(".homeBody2Header").css("margin-left", "100px")
   $(".homeBody2Header").css("text-align", "inherit")
   $("#demoDesc").show()
   $("iframe").css("height", "490px")
-  $("iframe").css("width", "820px")
-  $("iframe").css("bottom", "63%")
-  $("iframe").css("left", "40%")
-  $("iframe").css("margin-top", "0px")
-  $("iframe").removeClass("iframeResize")
+  $("iframe").css("width", "82%")
 
 
   $(".homeBody3").css("height", "650px")
@@ -67,14 +72,19 @@ function changeCSS(){
   $("#pickMovie").css("margin-top", "0px")
 
 
+  $("#homeBody2Half1").css("float", "none")
+  $("#homeBody2Half1").css("height", "40%")
+  $("#homeBody2Half1").css("width", "100%")
+  $("#homeBody2Half2").css("float", "none")
+  $("#homeBody2Half2").css("height", "60%")
+  $("#homeBody2Half2").css("width", "100%")
+
   $(".homeBody2Header").css("padding-top", "30px")
   $(".homeBody2Header").css("margin-left", "0px")
   $(".homeBody2Header").css("text-align", "center")
   $("#demoDesc").hide()
-  $("iframe").css("height", "200px")
-  $("iframe").css("width", "300px")
-  $("iframe").css("margin-top", "20%")
-  $("iframe").addClass("iframeResize")
+  $("iframe").css("height", "70%")
+  $("iframe").css("width", "85%")
   
 
   $(".homeBody3").css("height", "1700px")

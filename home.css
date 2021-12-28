@@ -120,22 +120,38 @@
   font-weight: 300;
   text-align: inherit;
 }
+
+#homeBody2Half1{
+  height: 100%;
+  width: 35%;
+  float: left;
+
+}
+
+#homeBody2Half2{
+  height: 100%;
+  width: 65%;
+  float: right;
+}
 #demoDesc{
   font-size: 15px;
   color:white;
   margin-left: 100px;
-  width: 25%;
-}
-iframe{
-  position: relative;
-  z-index: 1;
-  margin-top: 0px;
 }
 
-.iframeResize{
+
+iframe {
+  z-index: 1;
+  margin-top: 0px;
+  width: 82%;
+  height: 490px;
   display: block;
   margin: auto;
+  margin-top: 2% !important;
 }
+
+
+
 .homeBody3{
   height: 650px;
   width: 100%;
